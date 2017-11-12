@@ -1,0 +1,65 @@
+<testsuite name="uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation" tests="21" errors="0" failures="2" time="0">
+<testcase name="Global: max of response time is less than 500.0" status="true" time="0">
+  <system-out>Global: max of response time is less than 500.0</system-out>
+</testcase>
+<testcase name="Trigger login: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>Trigger login: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="Trigger login Redirect 1: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>Trigger login Redirect 1: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="Trigger login Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>Trigger login Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="govuk-template.css?0.19.2 Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>govuk-template.css?0.19.2 Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="govuk-template-print.css?0.19.2 Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>govuk-template-print.css?0.19.2 Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="fonts.css?0.19.2 Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>fonts.css?0.19.2 Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="favicon.ico?0.19.2 Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>favicon.ico?0.19.2 Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="application.css Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>application.css Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="govuk-template.js?0.19.2 Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>govuk-template.js?0.19.2 Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="details.polyfill.js Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>details.polyfill.js Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="jquery-1.11.3.js Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>jquery-1.11.3.js Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="selection-buttons.js Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>selection-buttons.js Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="shim-links-with-button-role.js Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>shim-links-with-button-role.js Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="show-hide-content.js Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>show-hide-content.js Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="application.js Redirect 2: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>application.js Redirect 2: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="Login - submit: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>Login - submit: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="Login - submit Redirect 1: count of failed requests is less than 1.0" status="true" time="0">
+  <system-out>Login - submit Redirect 1: count of failed requests is less than 1.0</system-out>
+</testcase>
+<testcase name="Login - submit Redirect 2: count of failed requests is less than 1.0" status="false" time="0">
+  <failure type="Login - submit Redirect 2">Actual value: 1.0</failure>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(Bad Request)" status="false" time="0">
+  <failure type="Bad Request">Actual value: -1</failure>
+</testcase>
+</testsuite>

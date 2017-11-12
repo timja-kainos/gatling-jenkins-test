@@ -1,0 +1,7 @@
+ASSERTION	AAMEAAEBBgAAAAAAAEB/QA==
+ASSERTION	AAIBAAIGAAAAAAAAAPA/
+ASSERTION	AAEAAQtCYWQgUmVxdWVzdAMAAwIAAAAAAACAVkA=
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510155879078	 	2.0
+GROUP	Failed to build request Login - submit: No attribute named 'loginUrl' is defined 	1510155879422
+USER	Create Claim	1	START	1510155879409	1510155879409
+USER	Create Claim	1	END	1510155879409	1510155880442

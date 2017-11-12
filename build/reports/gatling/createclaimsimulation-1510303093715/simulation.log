@@ -1,0 +1,68 @@
+ASSERTION	AAMEAAEBBgAAAAAAAEB/QA==
+ASSERTION	AAIBAAIGAAAAAAAAAPA/
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510303093715	 	2.0
+USER	Create Claim	1	START	1510303094227	1510303094227
+REQUEST	Create Claim	1		Trigger login	1510303094279	1510303094338	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 1	1510303094381	1510303094389	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 2	1510303094391	1510303094455	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510303094731	1510303094791	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510303094729	1510303094798	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510303094800	1510303094826	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510303094732	1510303094829	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510303094728	1510303094824	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510303094735	1510303094839	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510303094828	1510303094860	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510303094847	1510303094886	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510303094863	1510303094909	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510303094730	1510303094927	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510303094829	1510303094935	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510303094885	1510303094942	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510303094862	1510303094943	OK	 
+REQUEST	Create Claim	1		Login - submit	1510303095975	1510303096108	OK	 
+REQUEST	Create Claim	1		Login - submit Redirect 1	1510303096109	1510303096275	OK	 
+REQUEST	Create Claim	1		Login - submit Redirect 2	1510303096276	1510303096405	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.23.0 Redirect 2	1510303096447	1510303096485	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.23.0 Redirect 2	1510303096488	1510303096496	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510303096451	1510303096502	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.23.0 Redirect 2	1510303096446	1510303096500	OK	 
+REQUEST	Create Claim	1		jquery.min.js Redirect 2	1510303096498	1510303096506	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510303096507	1510303096514	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510303096510	1510303096522	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510303096518	1510303096523	OK	 
+REQUEST	Create Claim	1		analytics.js Redirect 2	1510303096525	1510303096529	OK	 
+REQUEST	Create Claim	1		detectJavascript.js Redirect 2	1510303096521	1510303096531	OK	 
+REQUEST	Create Claim	1		analytics-custom-event-sender.js?2017-10-11 Redirect 2	1510303096526	1510303096534	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.23.0 Redirect 2	1510303096452	1510303096540	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.23.0 Redirect 2	1510303096445	1510303096561	OK	 
+REQUEST	Create Claim	1		fonts.css?0.23.0 Redirect 2	1510303096447	1510303096596	OK	 
+REQUEST	Create Claim	1		Eligibility start	1510303097607	1510303097642	OK	 
+REQUEST	Create Claim	1		Eligibility - claim value GET	1510303099656	1510303099728	OK	 
+REQUEST	Create Claim	1		Eligibility - claim value POST	1510303099744	1510303099906	OK	 
+REQUEST	Create Claim	1		Eligibility - claim value POST Redirect 1	1510303099907	1510303100028	OK	 
+REQUEST	Create Claim	1		Eligibility - over 18 POST	1510303100051	1510303100206	OK	 
+REQUEST	Create Claim	1		Eligibility - over 18 POST Redirect 1	1510303100208	1510303100306	OK	 
+REQUEST	Create Claim	1		Eligibility - help with fees POST	1510303100322	1510303100451	OK	 
+REQUEST	Create Claim	1		Eligibility - help with fees POST Redirect 1	1510303100453	1510303100544	OK	 
+REQUEST	Create Claim	1		Eligibility - claimant address POST	1510303100561	1510303101532	OK	 
+REQUEST	Create Claim	1		Eligibility - claimant address POST Redirect 1	1510303101534	1510303101612	OK	 
+REQUEST	Create Claim	1		Eligibility - defendant address POST	1510303101629	1510303101740	OK	 
+REQUEST	Create Claim	1		Eligibility - defendant address POST Redirect 1	1510303101741	1510303101841	OK	 
+REQUEST	Create Claim	1		Eligibility - government department POST	1510303101859	1510303102009	OK	 
+REQUEST	Create Claim	1		Eligibility - government department POST Redirect 1	1510303102010	1510303102047	OK	 
+REQUEST	Create Claim	1		Task list - GET	1510303102061	1510303102141	OK	 
+REQUEST	Create Claim	1		Resolving this dispute - GET	1510303104147	1510303104214	OK	 
+REQUEST	Create Claim	1		Resolving this dispute - POST	1510303105227	1510303105328	OK	 
+REQUEST	Create Claim	1		Resolving this dispute - POST Redirect 1	1510303105330	1510303105400	OK	 
+REQUEST	Create Claim	1		Completing claim - GET	1510303107395	1510303107472	OK	 
+REQUEST	Create Claim	1		Completing claim - POST	1510303109497	1510303109595	OK	 
+REQUEST	Create Claim	1		Completing claim - POST Redirect 1	1510303109597	1510303109657	OK	 
+REQUEST	Create Claim	1		Party type selection - GET	1510303111666	1510303111741	OK	 
+REQUEST	Create Claim	1		Party type selection - POST	1510303113745	1510303113854	OK	 
+REQUEST	Create Claim	1		Party type selection - POST Redirect 1	1510303113855	1510303113949	OK	 
+REQUEST	Create Claim	1		Your details - POST	1510303116957	1510303117071	OK	 
+REQUEST	Create Claim	1		Your details - POST Redirect 1	1510303117072	1510303117145	OK	 
+REQUEST	Create Claim	1		Date of birth - POST	1510303119147	1510303119255	OK	 
+REQUEST	Create Claim	1		Date of birth - POST Redirect 1	1510303119256	1510303119338	OK	 
+REQUEST	Create Claim	1		Mobile - POST	1510303121346	1510303121449	OK	 
+REQUEST	Create Claim	1		Mobile - POST Redirect 1	1510303121450	1510303121523	KO	css((input[name='_csrf'],Some(value))).find.exists, found nothing
+USER	Create Claim	1	END	1510303094227	1510303122537

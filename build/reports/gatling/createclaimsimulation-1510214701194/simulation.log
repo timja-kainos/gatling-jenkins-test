@@ -1,0 +1,25 @@
+ASSERTION	AAMEAAEBBgAAAAAAAEB/QA==
+ASSERTION	AAIBAAIGAAAAAAAAAPA/
+ASSERTION	AAEAAQtCYWQgUmVxdWVzdAMAAwIAAAAAAACAVkA=
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510214701194	 	2.0
+USER	Create Claim	1	START	1510214701882	1510214701882
+REQUEST	Create Claim	1		Trigger login	1510214701933	1510214702004	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 1	1510214702038	1510214702047	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 2	1510214702049	1510214702113	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510214702360	1510214702397	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510214702370	1510214702425	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510214702413	1510214702445	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510214702427	1510214702446	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510214702452	1510214702460	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510214702374	1510214702467	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510214702358	1510214702479	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510214702374	1510214702485	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510214702367	1510214702503	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510214702485	1510214702505	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510214702464	1510214702525	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510214702488	1510214702534	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510214702447	1510214702538	OK	 
+REQUEST	Create Claim	1		Login - submit	1510214703568	1510214703710	OK	 
+REQUEST	Create Claim	1		Login - submit Redirect 1	1510214703711	1510214703822	OK	 
+REQUEST	Create Claim	1		Login - submit Redirect 2	1510214703824	1510214703865	KO	regex(Make a money claim).find.exists, found nothing
+USER	Create Claim	1	END	1510214701882	1510214704873

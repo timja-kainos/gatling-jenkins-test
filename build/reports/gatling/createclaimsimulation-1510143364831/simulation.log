@@ -1,0 +1,21 @@
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510143364831	 	2.0
+USER	Create Claim	1	START	1510143365521	1510143365521
+REQUEST	Create Claim	1		Home - load	1510143365583	1510143366134	OK	 
+REQUEST	Create Claim	1		Home - load Redirect 1	1510143366176	1510143366203	OK	 
+REQUEST	Create Claim	1		Home - load Redirect 2	1510143366205	1510143366275	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510143366486	1510143366546	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510143366487	1510143366548	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510143366558	1510143366580	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510143366488	1510143366604	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510143366556	1510143366616	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510143366491	1510143366632	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510143366616	1510143366633	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510143366634	1510143366650	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510143366484	1510143366658	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510143366619	1510143366675	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510143366486	1510143366677	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510143366581	1510143366690	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510143366635	1510143366695	OK	 
+REQUEST	Create Claim	1		Login - load	1510143367711	1510143368006	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 404
+REQUEST	Create Claim	1		Login - submit	1510143369018	1510143369103	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 403
+USER	Create Claim	1	END	1510143365521	1510143370114

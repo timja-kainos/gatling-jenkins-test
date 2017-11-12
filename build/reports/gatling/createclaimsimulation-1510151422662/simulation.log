@@ -1,0 +1,23 @@
+ASSERTION	AAMEAAEBBgAAAAAAAEB/QA==
+ASSERTION	AAIBAAIGAAAAAAAAAPA/
+ASSERTION	AAEAAQtCYWQgUmVxdWVzdAMAAwIAAAAAAACAVkA=
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510151422662	 	2.0
+USER	Create Claim	1	START	1510151423063	1510151423063
+REQUEST	Create Claim	1		Trigger login	1510151423102	1510151423159	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 1	1510151423192	1510151423202	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 2	1510151423204	1510151423302	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510151423503	1510151423549	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510151423507	1510151423579	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510151423505	1510151423583	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510151423510	1510151423590	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510151423511	1510151423618	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510151423597	1510151423626	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510151423594	1510151423637	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510151423506	1510151423650	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510151423629	1510151423661	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510151423610	1510151423657	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510151423598	1510151423681	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510151423622	1510151423696	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510151423640	1510151423696	OK	 
+GROUP	Failed to build request Login - submit: No attribute named 'loginUrl' is defined 	1510151424723
+USER	Create Claim	1	END	1510151423063	1510151425726

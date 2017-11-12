@@ -1,0 +1,24 @@
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510143189397	 	2.0
+USER	Create Claim	1	START	1510143190094	1510143190094
+REQUEST	Create Claim	1		Home - load	1510143190146	1510143190840	OK	 
+REQUEST	Create Claim	1		Home - load Redirect 1	1510143190884	1510143190915	OK	 
+REQUEST	Create Claim	1		Home - load Redirect 2	1510143190917	1510143191068	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510143191308	1510143191418	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510143191306	1510143191437	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510143191313	1510143191454	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510143191321	1510143191454	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510143191319	1510143191457	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510143191312	1510143191483	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510143191443	1510143191512	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510143191432	1510143191535	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510143191468	1510143191556	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510143191456	1510143191572	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510143191494	1510143191577	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510143191476	1510143191620	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510143191516	1510143191623	OK	 
+REQUEST	Create Claim	1		Login - load	1510143192649	1510143192819	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 404
+REQUEST	Create Claim	1		Login - submit	1510143193824	1510143193858	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 403
+REQUEST	Create Claim	1		Claim start - load	1510143194869	1510143194875	OK	 
+REQUEST	Create Claim	1		Claim start - load Redirect 1	1510143194877	1510143195010	OK	 
+REQUEST	Create Claim	1		Elibility - claim value post	1510143197088	1510143197106	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 403
+USER	Create Claim	1	END	1510143190094	1510143197116

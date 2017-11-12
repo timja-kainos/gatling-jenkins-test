@@ -1,0 +1,423 @@
+{
+  "simulation": "uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation",
+  "simulationId": "createclaimsimulation",
+  "start": 1510301556223,
+  "description": "",
+  "scenarios": ["Create Claim"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [500.0],
+  "result": true,
+  "message": "Global: max of response time is less than 500.0",
+  "actualValue": [224.0]
+},
+{
+  "path": "Trigger login",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Trigger login: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Trigger login Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Trigger login Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Trigger login Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Trigger login Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "govuk-template.css?0.19.2 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "govuk-template.css?0.19.2 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "govuk-template-print.css?0.19.2 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "govuk-template-print.css?0.19.2 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "fonts.css?0.19.2 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "fonts.css?0.19.2 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "favicon.ico?0.19.2 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "favicon.ico?0.19.2 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "application.css Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "application.css Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "govuk-template.js?0.19.2 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "govuk-template.js?0.19.2 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "details.polyfill.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "details.polyfill.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "jquery-1.11.3.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "jquery-1.11.3.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "selection-buttons.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "selection-buttons.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "shim-links-with-button-role.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "shim-links-with-button-role.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "show-hide-content.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "show-hide-content.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "application.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "application.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Login - submit",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Login - submit: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Login - submit Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Login - submit Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Login - submit Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Login - submit Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "govuk-template-print.css?0.23.0 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "govuk-template-print.css?0.23.0 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "govuk-template.css?0.23.0 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "govuk-template.css?0.23.0 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "fonts.css?0.23.0 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "fonts.css?0.23.0 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "favicon.ico?0.23.0 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "favicon.ico?0.23.0 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "gov.uk_logotype_crown_invert_trans.png?0.23.0 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "gov.uk_logotype_crown_invert_trans.png?0.23.0 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "govuk-template.js?0.23.0 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "govuk-template.js?0.23.0 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "jquery.min.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "jquery.min.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "detectJavascript.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "detectJavascript.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "analytics.js Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "analytics.js Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "analytics-custom-event-sender.js?2017-10-11 Redirect 2",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "analytics-custom-event-sender.js?2017-10-11 Redirect 2: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility start",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility start: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - claim value GET",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - claim value GET: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - claim value POST",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - claim value POST: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - claim value POST Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - claim value POST Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - over 18 POST",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - over 18 POST: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - over 18 POST Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - over 18 POST Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - help with fees POST",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - help with fees POST: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - help with fees POST Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - help with fees POST Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - claimant address POST",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - claimant address POST: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - claimant address POST Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - claimant address POST Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - defendant address POST",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - defendant address POST: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - defendant address POST Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - defendant address POST Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - government department POST",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - government department POST: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Eligibility - government department POST Redirect 1",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Eligibility - government department POST Redirect 1: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Task list - GET",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Task list - GET: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Resolving this dispute - GET",
+  "target": "count of failed requests",
+  "condition": "is less than",
+  "expectedValues": [1.0],
+  "result": true,
+  "message": "Resolving this dispute - GET: count of failed requests is less than 1.0",
+  "actualValue": [0.0]
+}
+  ]
+}

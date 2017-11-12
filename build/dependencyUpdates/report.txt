@@ -1,0 +1,13 @@
+
+------------------------------------------------------------
+: Project Dependency Updates (report to plain text file)
+------------------------------------------------------------
+
+The following dependencies are using the latest milestone version:
+ - io.gatling.highcharts:gatling-charts-highcharts:2.3.0
+ - gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:0.7.1
+
+The following dependencies have later milestone versions:
+ - net.databinder.dispatch:dispatch-lift-json_2.11 [0.12.0 -> 0.13.2]
+ - com.github.ben-manes:gradle-versions-plugin [0.15.0 -> 0.17.0]
+ - org.scala-lang:scala-library [2.12.3 -> 2.13.0-M2]

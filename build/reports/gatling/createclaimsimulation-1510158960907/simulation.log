@@ -1,0 +1,23 @@
+ASSERTION	AAMEAAEBBgAAAAAAAEB/QA==
+ASSERTION	AAIBAAIGAAAAAAAAAPA/
+ASSERTION	AAEAAQtCYWQgUmVxdWVzdAMAAwIAAAAAAACAVkA=
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510158960907	 	2.0
+USER	Create Claim	1	START	1510158961660	1510158961660
+REQUEST	Create Claim	1		Trigger login	1510158961717	1510158961792	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 1	1510158961837	1510158961851	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 2	1510158961855	1510158961915	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510158962254	1510158962328	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510158962258	1510158962343	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510158962257	1510158962348	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510158962252	1510158962346	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510158962343	1510158962372	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510158962260	1510158962406	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510158962368	1510158962407	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510158962408	1510158962426	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510158962393	1510158962444	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510158962255	1510158962465	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510158962411	1510158962484	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510158962355	1510158962488	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510158962357	1510158962491	OK	 
+GROUP	Failed to build request Login - submit: No attribute named 'continue' is defined 	1510158963565
+USER	Create Claim	1	END	1510158961660	1510158963607

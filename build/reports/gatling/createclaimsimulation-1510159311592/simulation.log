@@ -1,0 +1,23 @@
+ASSERTION	AAMEAAEBBgAAAAAAAEB/QA==
+ASSERTION	AAIBAAIGAAAAAAAAAPA/
+ASSERTION	AAEAAQtCYWQgUmVxdWVzdAMAAwIAAAAAAACAVkA=
+RUN	uk.gov.hmcts.reform.cmc.performance.simulations.CreateClaimSimulation		createclaimsimulation	1510159311592	 	2.0
+USER	Create Claim	1	START	1510159312038	1510159312038
+REQUEST	Create Claim	1		Trigger login	1510159312088	1510159312215	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 1	1510159312247	1510159312316	OK	 
+REQUEST	Create Claim	1		Trigger login Redirect 2	1510159312319	1510159312432	OK	 
+REQUEST	Create Claim	1		govuk-template.css?0.19.2 Redirect 2	1510159312618	1510159312647	OK	 
+REQUEST	Create Claim	1		favicon.ico?0.19.2 Redirect 2	1510159312623	1510159312681	OK	 
+REQUEST	Create Claim	1		govuk-template.js?0.19.2 Redirect 2	1510159312674	1510159312689	OK	 
+REQUEST	Create Claim	1		govuk-template-print.css?0.19.2 Redirect 2	1510159312619	1510159312694	OK	 
+REQUEST	Create Claim	1		details.polyfill.js Redirect 2	1510159312684	1510159312706	OK	 
+REQUEST	Create Claim	1		application.css Redirect 2	1510159312624	1510159312718	OK	 
+REQUEST	Create Claim	1		gov.uk_logotype_crown_invert_trans.png?0.19.2 Redirect 2	1510159312627	1510159312735	OK	 
+REQUEST	Create Claim	1		selection-buttons.js Redirect 2	1510159312712	1510159312754	OK	 
+REQUEST	Create Claim	1		fonts.css?0.19.2 Redirect 2	1510159312621	1510159312762	OK	 
+REQUEST	Create Claim	1		jquery-1.11.3.js Redirect 2	1510159312694	1510159312785	OK	 
+REQUEST	Create Claim	1		shim-links-with-button-role.js Redirect 2	1510159312713	1510159312794	OK	 
+REQUEST	Create Claim	1		application.js Redirect 2	1510159312737	1510159312800	OK	 
+REQUEST	Create Claim	1		show-hide-content.js Redirect 2	1510159312730	1510159312801	OK	 
+REQUEST	Create Claim	1		Login - submit	1510159313833	1510159313978	KO	regex(Make a money claim).find.exists, found nothing
+USER	Create Claim	1	END	1510159312038	1510159314016
